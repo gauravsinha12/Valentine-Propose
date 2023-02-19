@@ -4,7 +4,7 @@ from tkinter import messagebox
 from PIL import Image, ImageTk
 
 root = tk.Tk()
-image_file = "willmeet.jpg"
+image_file = "willmeet.jpg"#cahnge the JPG image to you with your loved one's with you
 image = Image.open(image_file)
 
 image = image.resize((500, 1200))
